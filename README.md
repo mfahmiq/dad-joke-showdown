@@ -12,24 +12,28 @@ explaining needed.
 
 ## The joke
 
-> Why did the dad take his clock to the doctor? It had a bad case of second thoughts.
+> Why did the dad unplug the router at dinner? He wanted the whole family to reconnect.
+
 
 ## How it works
 
 `main.py` (Python 3.13 standard library only, no network) writes the
 joke to `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output`). The joke
-is 83 characters, inside the competition's 1–200 character gate, and
+is 85 characters, inside the competition's 1–200 character gate, and
 the program asserts that bound before writing. Running it twice
 produces byte-identical output, so the entry is fully deterministic.
+
 
 ## Why this joke
 
 A dad joke earns its groan when the pun is clean and the delivery is
-straight-faced. "Second thoughts" does double duty here: it is what a
-worried patient tells a doctor, and it is literally what a clock is
-made of — seconds. The clock going to the doctor is absurd enough to
-be funny on its own, and the punchline reframes the whole setup in
-three words.
+straight-faced. "Reconnect" does double duty here: it is what a router
+does when it comes back online, and it is what a family does when
+everyone puts their phones down and actually talks at dinner. The
+setup is a father at the table doing something every modern dad has
+threatened to do, and the punchline reframes the whole scene in a
+single word — no explaining needed, and fresh enough that nobody at
+the table has heard this exact one before.
 
 ## Entry
 

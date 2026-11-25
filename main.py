@@ -9,11 +9,12 @@ bytes on every run.
 
 import os
 
-JOKE = "Why did the dad take his clock to the doctor? It had a bad case of second thoughts."
-# The joke is 83 characters, comfortably inside the 1-200 gate.
+JOKE = "Why did the dad unplug the router at dinner? He wanted the whole family to reconnect."
+# The joke is 85 characters, comfortably inside the 1-200 gate.
 
 assert 1 <= len(JOKE) <= 200, "dad joke must be 1-200 characters"
 assert JOKE.strip(), "dad joke must not be only white space"
+
 
 
 def main():
